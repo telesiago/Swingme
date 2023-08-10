@@ -1,0 +1,25 @@
+.wrapper {
+    grid-area: header;
+    max-height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.wrapper button {
+    width: 12rem;
+    height: 2.5rem;
+    background: var(--gray-100);
+    border: 0;
+    padding: 0.5rem;
+    border-radius: 20px;
+    margin-inline: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper button:focus{
+    background-color: var(--roxo-600);
+}

@@ -1,0 +1,51 @@
+.sidebar {
+    margin: 1rem;
+    grid-area: sidebar;
+}
+
+.bartop {
+    min-height: 46rem;
+    background-color: var(--gray-900);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    width: 3.75rem;
+    margin-top: 1rem;
+    margin-bottom: auto;
+}
+.bartop button {
+    background: transparent;
+    border: 0;
+    border-radius: 100px;
+    padding: 0.5rem;
+}
+
+
+.bartop button:focus{
+    background-color: var(--roxo-600);
+}
+
+.bartop button + button {
+    margin-bottom: auto;    
+}    
+
+.barbottom {
+    height: 9rem;
+    margin-top: 1rem;
+    background-color: var(--gray-900);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100px;
+    object-fit: cover;
+}
